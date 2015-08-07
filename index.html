@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Loclii</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="css/app.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="app-page" data-page="listView">
+      <div class="app-topbar blue">
+        <div class="app-title">Loclii</div>
+      </div>
+      <div class="app-content">
+        <form action="">
+            <input id="search" class="app-input no-icon-android" type="search" placeholder="Search...">
+            <input type="submit" style="display:none">
+        </form>
+        <div class="results">
+          <div class="placeholder search"><span></span>Search for something local...</div>
+          <div class="loader"><i class="fa fa-spinner fa-spin fa-3x"></i></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="app-page" data-page="detailView">
+      <div class="app-topbar blue">
+        <div class="app-button left" data-back data-autotitle></div>
+        <div class="app-title">Details</div>
+      </div>
+      <div class="app-content">
+        <div class="app-section">
+          <h3 class="title"></h3>
+          <div><span class="address"></span><span class="city-state"></span></div>
+          <div><span class="distance"></span></div>
+          <div><span class="phone"></span></div>
+          <div><span class="rating-stars"></span><span class="no-ratings"></span></div>
+        </div>
+        <div class="app-section">
+          <div class="app-button blue"><a href="#" class="call"><i class="fa fa-phone"></i> Call</a></div>
+          <div class="app-button green"><a href="#" class="directions"><i class="fa fa-map-marker"></i> Get Directions</a></div>
+          <div class="app-button orange"><a href="#" class="website"><i class="fa fa-laptop"></i> Website</a></div>
+        </div>
+        <div class="review-section"></div>
+      </div>
+    </div>
+
+    <script src="js/zepto.js"></script>
+    <script src="js/app.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
