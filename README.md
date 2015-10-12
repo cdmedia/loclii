@@ -2,7 +2,7 @@
 ---
 
 This is an example local search application from the
-[Build a local search app with geolocation](http://cdmedia.github.io/2015/08/07/build-a-local-search-app-with-geo) post
+[Build a local search app with geolocation](http://codoki.github.io/2015/08/07/build-a-local-search-app-with-geo) post
 built with [App.js](https://github.com/kikinteractive/app) and [Yahoo
 YQL](https://developer.yahoo.com/yql).
 
