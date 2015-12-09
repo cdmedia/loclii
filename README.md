@@ -7,7 +7,7 @@ built with [App.js](https://github.com/kikinteractive/app) and [Yahoo
 YQL](https://developer.yahoo.com/yql).
 
 ![Local Search
-App](https://raw.githubusercontent.com/cdmedia/cdmedia.github.io/master/public/img/tuts/loclii-demo.gif)
+App](https://raw.githubusercontent.com/codoki/codoki.github.io/master/public/img/tuts/loclii-demo.gif)
 
 
 ##Demo
